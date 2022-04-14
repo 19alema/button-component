@@ -1,0 +1,27 @@
+.single_button-row {
+   display: flex;
+   align-items: center;
+   padding: 1em 0;
+}
+
+.App_buttons {
+   padding-top: 3em;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.App_buttons h3 {
+   padding: .5em 20px;
+   font-size: 2em;
+}
+.button_box {
+   padding : 0 1em;
+}
+
+.loading {
+   position: fixed;
+   top: 50%;
+   text-align: center;
+   left: 0;
+   right: 0;
+}

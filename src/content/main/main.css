@@ -1,0 +1,20 @@
+.main_section {
+    display: grid;
+}
+@media(min-width: 800px) {
+   .sidebar {
+       display: none;
+   }
+    .main_section {
+        grid-template-columns: 250px 100%;
+    }
+}
+.sidebar {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
